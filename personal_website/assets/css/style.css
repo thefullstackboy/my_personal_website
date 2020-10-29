@@ -4,5 +4,22 @@
     box-sizing: 0;
 }
 
+.navbar-brand {
+    font-size: 28px;
+    font-weight: 700;
+    padding-left: 165px;
+    margin-top: -10px;
+ 
+}
 
+.tagedit {
+    padding-right: 208px;
+    float: right;
+    word-spacing: 16px;
+    margin-top: -3.5%;
+    
+}
 
+.tagedit a {
+    color: #000000;
+}
