@@ -42,4 +42,20 @@
 
 .buttonmargin {
   margin-top: 25px;
+  word-spacing: 12px;
+}
+
+.btn-success {
+    background-color: #68D391;
+}
+
+.btn-outline-success {
+    color: #000000;
+}
+
+.imgeedit img {
+    float: right;
+    margin-top: -317px;
+    margin-right: 170px;
+    border: 17px solid #FFFFFF;
 }
