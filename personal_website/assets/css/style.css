@@ -25,8 +25,8 @@
 }
 
 .margintop {
-    margin-top:195px;
-    margin-left: 210px;
+    margin-top:187px;
+    margin-left: 200px;
  
 }
 .row h4 {
@@ -34,6 +34,12 @@
     font-size: 26px;
 }
 
-.buttonmargin {
+.madewith {
+    font-size: 16px;
+    margin-top: 20px;    
+    margin-left: 2px;
+}
 
+.buttonmargin {
+  margin-top: 25px;
 }
