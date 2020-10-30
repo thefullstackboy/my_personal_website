@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: 0;
+
 }
 
 .navbar-brand {
@@ -56,6 +57,24 @@
 .imgeedit img {
     float: right;
     margin-top: -317px;
-    margin-right: 170px;
+    margin-right: 60px;
     border: 17px solid #FFFFFF;
+    z-index: -1;
+    position: relative;
 }
+
+.blackborder {
+    height: 50px;
+    width: 192px;
+    background-color:  	rgb(128,128,128);
+    rotate: 225deg;
+    opacity: 0.8;
+    float: right;
+    margin-top: -318px;
+    margin-left: 938px;  
+  
+   }
+
+  
+
+
