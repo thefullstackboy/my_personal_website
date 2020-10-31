@@ -72,6 +72,19 @@
     float: right;
     margin-top: -318px;
     margin-left: 938px;  
+    position: absolute;
+  
+   }
+
+   .greyborder {
+    height: 50px;
+    width: 192px;
+    background-color:  	rgb(232,243,236);
+    rotate: 225deg;  
+    float: right;
+    margin-top: 50px;
+    margin-left: 650px;  
+    position: absolute;
   
    }
 
