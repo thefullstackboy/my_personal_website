@@ -96,6 +96,10 @@
        width: 80%;
       
    }
+
+   .progheading {
+       font-weight: 800;
+   }
   
 
    .margintopimg  h1 {
@@ -104,8 +108,21 @@
    }
 
    .margintopimg p {
-       margin-top: 10px;
+       margin-top: 15px;
        font-size: 18px;
        font-weight: 400;
+       color: #757575;
    }
 
+   .cssimg {
+       height: 100px;
+       width: 100px;
+       margin-top: 15px;
+   }
+
+   .font-bold {
+       font-size: 26px;
+       float: right;
+       margin-right:0px;
+       margin-top: -28px;
+   }
