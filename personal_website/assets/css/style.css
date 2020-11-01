@@ -93,8 +93,19 @@
    }
 
    .border-top {
-       width: 40%;
+       width: 80%;
+      
    }
   
 
+   .margintopimg  h1 {
+     font-size: 62px;
+     margin-top: 40px;
+   }
+
+   .margintopimg p {
+       margin-top: 10px;
+       font-size: 18px;
+       font-weight: 400;
+   }
 
