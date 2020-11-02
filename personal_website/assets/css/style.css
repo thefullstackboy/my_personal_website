@@ -118,9 +118,12 @@
        height: 100px;
        width: 100px;
        margin-top: 15px;
+       align-items: center;
+       vertical-align: middle;
+       margin-left: 50px;
    }
 
-   .htmlimg {
+   .htmlimg, .javaimg {
        height: 100px;
        width: 100px;
        margin-top: 30px;
@@ -130,8 +133,8 @@
    }
 
    .font-bold {
-       font-size: 26px;
+       font-size: 21px;
        float: right;
-       margin-right:0px;
-       margin-top: -28px;
+       margin-right:-30px;
+       margin-top: -24px;
    }
