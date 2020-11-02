@@ -120,6 +120,15 @@
        margin-top: 15px;
    }
 
+   .htmlimg {
+       height: 100px;
+       width: 100px;
+       margin-top: 30px;
+       margin-left: 185px;
+       align-items: center;
+        vertical-align: middle;
+   }
+
    .font-bold {
        font-size: 26px;
        float: right;
