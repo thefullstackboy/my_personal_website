@@ -1,44 +1,172 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
 
-    </title>
-    <style>
+body {
 
-    </style>
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  background-color: #000000;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.containertl {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 48%;
+
+  
+}
+
+
+
+/* Place the container to the left */
+.left {
+  left: 0%;
+}
+
+/* Place the container to the right */
+.right {
+  left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -16px;
+}
+
+/* The actual content */
+.content {
+  padding: 20px 30px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+  border: 2px solid #000000;
+  margin: -23px;
+}
+
+.textaright1 {
+    text-align: right;
+    margin-bottom: 40px;
+}
+
+.textaright2 {
+    text-align: right;
+    margin-top: 40px;
+}
+
+.textmargintop {
+    margin-top: 80px;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+  /* Place the timelime to the left */
+  .timeline::after {
+  left: 31px;
+  }
+  
+  /* Full-width containers */
+  .containertl {
+  width: 100%;
+  padding-left: 70px;
+  padding-right: 25px;
+  }
+  
+  /* Make sure that all arrows are pointing leftwards */
+  .containertl::before {
+  left: 60px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+  }
+
+  /* Make sure all circles are at the same spot */
+  .left::after, .right::after {
+  left: 15px;
+  }
+  
+  /* Make all right containers behave like the left ones */
+  .right {
+  left: 0%;
+  }
+}
+</style>
 </head>
 <body>
 
+<div class="timeline">
 
-    <div class="progress">
-        <div class="progress-bar" role="progressbar" style="width: 95%; background: radial-gradient( circle farthest-corner at 0.8% 3.1%,  rgba(255,188,224,1) 0%, rgba(170,165,255,1) 46%, rgba(165,255,205,1) 100.2% );" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
-     
+  <div class="containertl right">
+    <h4 class="textaright1">Dec 2016</h4>
+    <div class="content">
+    <h4>Chief Cook .Bikini Bottom</h4>
+    <h5>Krusty krab</h5>
+      <p>Chief cook of the biggest restaurant of Bikini Bottom.</p>
     </div>
-
-    <div class="flex items-center">
-        <div class="h-4 flex-1 mr-4 shadow-2 rounded-sm bg-gray-200">
-            <div class="h-full bg-green-300 rounded-sm" style="width: 95%; background: radial-gradient( circle farthest-corner at 0.8% 3.1%,  rgba(255,188,224,1) 0%, rgba(170,165,255,1) 46%, rgba(165,255,205,1) 100.2% );">
-            </div>
-        </div>
-        <span class="font-bold">95%</span>
+    <h4 class="textaright2"> Jan 2016</h4>
+  </div>
+  <div class="containertl left">
+      <h4 class="textaright1">Dec 2016</h4>
+    <div class="content">
+      <h4>Trainee Cook .California</h4>
+      <h5>Krusty krab</h5>
+      <p>I learned the basics of cooking, the passion and the secrets of a good burger.</p>
     </div>
-      
-
-
-    <div class="progress">
-        <div class="progress-bar" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
-        <div class="progress-bar bg-success" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
-        <div class="progress-bar bg-info" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
-      </div>
-
+    <h4 class="textaright2"> Jan 2016</h4>
+  </div>
+ 
+</div>
 
 </body>
 </html>
-
