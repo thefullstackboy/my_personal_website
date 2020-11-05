@@ -308,29 +308,44 @@ input[type=email], select, textarea {
 
 
 input[type=submit] {
-  background-color: #4CAF50;
+  background-color: #000000;
   color: white;
-  padding: ;
+  padding: 8px 8px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
 }
 
-input[type=submit]:hover {
-  background-color: #45a049;
-}
+
   
 .text-red-500 {
   color: #F56565;
 }
 
-input[type=button] {
+.contactemail {
   background-color: #EDF2F7;
   padding: 6px 10px;
   border: 2px solid #EDF2F7;
   border-radius: 4px;
+  color: #000000;
+  cursor: pointer;
+}
+
+.contactemail:hover {
+  text-decoration: none;
+  color: #000000;
 
 }
+
+input[type=reset] {
+  background-color: #EDF2F7;
+  padding: 6px 10px;
+  border: 2px solid #EDF2F7;
+  border-radius: 4px;
+  
+}
+
+
 
   /* Media queries - Responsive timeline on screens less than 600px wide */
   @media screen and (max-width: 600px) {
