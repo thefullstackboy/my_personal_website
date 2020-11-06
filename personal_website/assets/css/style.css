@@ -346,14 +346,14 @@ input[type=reset] {
 }
 
 .fonticon {
-  font-size: 20px;
+  margin: 0px 8px;
+
+  width: 60px;
+  height: 60px;
   text-align: center;
   align-items: center;
-  justify-content: center;
-  word-spacing: 80px;
-  width: 50px;
-  text-decoration: none;
-  margin: 0px 8px;
+  border:16px solid #000000;
+  font-size: 25px;  
   }
 
  
@@ -370,6 +370,15 @@ input[type=reset] {
     
 
   }  
+
+  .fa-envelope:hover {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    align-items: center;
+    border:16px solid #000000;
+    font-size: 25px;  
+  }
 
 
   /* Media queries - Responsive timeline on screens less than 600px wide */
