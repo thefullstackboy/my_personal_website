@@ -345,6 +345,31 @@ input[type=reset] {
   
 }
 
+.fonticon {
+  font-size: 20px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  word-spacing: 80px;
+  width: 50px;
+  text-decoration: none;
+  margin: 0px 8px;
+  }
+
+ 
+
+  .fa-envelope, .fa-github, .fa-medium, .fa-stack-overflow, .fa-twitter, .fa-facebook-f {
+    color: #FFFFFF;
+    border-radius: 50%;
+    border:12px solid #000000;
+    background-color: #000000;
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+
+    
+
+  }  
 
 
   /* Media queries - Responsive timeline on screens less than 600px wide */
