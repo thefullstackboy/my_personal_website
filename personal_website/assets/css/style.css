@@ -433,6 +433,20 @@ input[type=reset] {
     vertical-align: middle;       
   }
 
+  .dby {
+    font-size: 13px;
+    color: #FFFFFF;
+    height: 88px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+  }
+
+  .fotterlogo {
+    font-style: 22px;
+    background-color: white;
+  }
 
   /* Media queries - Responsive timeline on screens less than 600px wide */
   @media screen and (max-width: 600px) {
