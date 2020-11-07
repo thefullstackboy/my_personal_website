@@ -443,10 +443,6 @@ input[type=reset] {
     
   }
 
-  .fotterlogo {
-    font-style: 22px;
-    background-color: white;
-  }
 
   /* Media queries - Responsive timeline on screens less than 600px wide */
   @media screen and (max-width: 600px) {
