@@ -27,11 +27,11 @@
 
 }
 
-.tagedit {
-    
+.tagedit {    
     float: right;
     word-spacing: 20px;
-    margin-top: -58px;
+    margin-top: -60px;
+    margin-right: 53px;
     
 }
 
@@ -498,8 +498,7 @@ input[type=reset] {
       font-weight: 700;
       color: #000000;
       margin-top: -10px;
-      display: none;
-   
+      display: none;   
   }
 
   .navbar-brand2 {
@@ -510,9 +509,19 @@ input[type=reset] {
     display: flex;
     margin-left: -110px;
     background-color: #000000;
-    border-radius: 6px;
-   
- 
+    border-radius: 6px;   
+}
+
+.tagedit {    
+  float: right;
+  word-spacing: 20px;
+  margin-top: -58px;
+  margin-right: -110px;  
+}
+
+.tagedit a {
+  color: #000000;
+  padding: 6px 6px;
 }
   
    }
@@ -541,6 +550,18 @@ input[type=reset] {
     border-radius: 6px;
    
  
+}
+
+.tagedit {    
+  float: right;
+  word-spacing: 20px;
+  margin-top: -58px;
+  margin-right: 30px;  
+}
+
+.tagedit a {
+  color: #000000;
+  padding: 6px 6px;
 }
 
     
