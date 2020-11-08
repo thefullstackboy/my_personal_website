@@ -13,6 +13,10 @@
  
 }
 
+.navbar-brand:hover {
+  color: #000000;
+}
+
 .navbar-brand2 {
   font-size: 28px;
   font-weight: 700;
@@ -23,15 +27,16 @@
 }
 
 .tagedit {
-    padding-right: 208px;
+    
     float: right;
-    word-spacing: 16px;
-    margin-top: -3.5%;
+    word-spacing: 20px;
+    margin-top: -58px;
     
 }
 
 .tagedit a {
     color: #000000;
+    padding: 8px 12px;
 }
 
 .margintop {
