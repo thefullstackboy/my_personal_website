@@ -8,9 +8,18 @@
 .navbar-brand {
     font-size: 28px;
     font-weight: 700;
-    padding-left: 165px;
+    color: #000000;
     margin-top: -10px;
  
+}
+
+.navbar-brand2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #000000;
+  margin-top: -10px;
+  display: none;
+
 }
 
 .tagedit {
@@ -476,4 +485,29 @@ input[type=reset] {
     left: 0%;
     }
   }
+
+  @media screen and (max-width: 600px) {
+    .navbar-brand {
+      font-size: 28px;
+      font-weight: 700;
+      color: #000000;
+      margin-top: -10px;
+      display: none;
+   
+  }
+
+  .navbar-brand2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 5px;
+    display: flex;
+    margin-left: 5px;
+    background-color: #000000;
+    border-radius: 6px;
+ 
+}
+  
+   }
+
   
