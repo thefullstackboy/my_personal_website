@@ -9,7 +9,8 @@
     font-size: 28px;
     font-weight: 700;
     color: #000000;
-    margin-top: -10px;
+    margin-top: -5px;
+    margin-left: 60px;
  
 }
 
@@ -491,7 +492,7 @@ input[type=reset] {
     }
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen  and (max-width: 767px) {
     .navbar-brand {
       font-size: 28px;
       font-weight: 700;
@@ -507,12 +508,41 @@ input[type=reset] {
     color: #FFFFFF;
     margin-top: 5px;
     display: flex;
-    margin-left: 5px;
+    margin-left: -110px;
     background-color: #000000;
     border-radius: 6px;
+   
  
 }
   
    }
 
+   @media (min-width: 320px) and (max-width: 766px) {
+  
+    /* CSS */
+
+    .navbar-brand {
+      font-size: 28px;
+      font-weight: 700;
+      color: #000000;
+      margin-top: -10px;
+      display: none;
+   
+  }
+
+  .navbar-brand2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 5px;
+    display: flex;
+    margin-left: 0px;
+    background-color: #000000;
+    border-radius: 6px;
+   
+ 
+}
+
+    
+  }
   
