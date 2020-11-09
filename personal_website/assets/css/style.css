@@ -45,21 +45,23 @@
     margin-left: 200px;
  
 }
-.row h4 {
-    line-height: 40px;
-    font-size: 26px;
+
+.nametitle {
+  margin-left: -18px;
+  margin-top: 200px;
+ 
+
 }
 
-.madewith {
-    font-size: 16px;
-    margin-top: 20px;    
-    margin-left: 2px;
+.lhweb {
+  line-height: 70px;
 }
 
-.buttonmargin {
-  margin-top: 25px;
-  word-spacing: 12px;
-}
+
+
+
+
+
 
 .btn-success {
     background-color: #68D391;
