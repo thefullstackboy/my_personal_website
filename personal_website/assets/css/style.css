@@ -546,50 +546,19 @@ input[type=reset] {
   padding: 6px 6px;
 }
 
-
-
-
-
-
-
-.margintop {
-  margin-top:-80px;
-  margin-left: -15px;
-  width: 100%;
-  text-align: center;
-  align-items: center;
-  padding-top: -30px;
-
-}
-
-.nametitle {
-margin-left: -18px;
-margin-top: 200px;
-
-
-}
-
-.lhweb {
-line-height: 70px;
+.nameres {
+  text-align: justify;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 
-.madewith {
-margin-left: -18px;
-margin-top: 5px;
-}
 
-.buttonmarginleft1 {
-margin-left: -5px;
-margin-top: 5px;
-padding: 9px 14px;
-}
 
-.buttonmarginleft2 {
-margin-left: 20px;
-margin-top: 5px;
-padding: 9px 14px;
-}
+
+
+
+
 
   
    }
