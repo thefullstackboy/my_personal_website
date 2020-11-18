@@ -19,9 +19,20 @@
     color: #54b689;
     padding: 3rem !important;
     margin-right: auto !important;
-    margin-left: -8%;
-    margin-top: -4%;
+    margin-left: -6.8%;
+    margin-top: -3.2%;
 
 
 
+}
+
+.jobpost {
+    font-size: 16px;
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #4F4F4F;
+    margin-left: 3%;
+    margin-top: -10.6%;
+   
+    
 }
