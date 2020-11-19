@@ -49,5 +49,16 @@
 
 .tagalign {
     padding-top: 1.5%;
+    padding-left: 1%;
+    margin-right: 4.8%;
+    
 }
 
+.tagalign a {
+    color: #4f4f4f;
+    font-size: 12px;
+}
+
+.bordertag {
+    
+}
