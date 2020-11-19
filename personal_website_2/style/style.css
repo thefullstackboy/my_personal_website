@@ -36,3 +36,18 @@
    
     
 }
+
+.fa-map-marker, .fa-phone-square, .fa-envelope-square, .fa-globe  {
+    color:#4f4f4f;
+    font-size: 1rem;
+    background-color:transparent;
+    rotate: 360deg;
+    padding-left: 4%;
+
+
+}
+
+.tagalign {
+    padding-top: 1.5%;
+}
+
