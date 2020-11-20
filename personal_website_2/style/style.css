@@ -59,6 +59,13 @@
     font-size: 12px;
 }
 
-.bordertag {
-    
+.resume-profile-image {
+    max-width: 136px;
+
+}
+
+.imagealign {
+padding-left: 1.6%;
+padding-top: 0.40%;
+
 }
