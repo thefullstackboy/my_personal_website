@@ -109,7 +109,12 @@ padding-top: 0.40%;
 
 .resumeheading5 {
 margin-left: 1.6%;
+}
 
-
+.softwaredevheadin {
+    font-size: 1rem;
+    color: #292929;
+    font-weight: 700;
+    line-height: 1.2;
 }
 
