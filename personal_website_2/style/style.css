@@ -130,3 +130,11 @@ color: #4f4f4f;
     padding-left: 1.6%;
     padding-top: 1.7%;
 }
+
+.msccomputer {
+    font-weight: 700 !important;
+    font-size: .875rem;
+    color:#4f4f4f;
+    line-height: 1.5;
+    text-align: left;
+}
