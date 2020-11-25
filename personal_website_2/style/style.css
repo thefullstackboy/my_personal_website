@@ -143,3 +143,13 @@ color: #4f4f4f;
     margin-top: -138.6%;
     margin-right: 3.2%;
 }
+
+@media (min-width: 800px) and (max-width: 1350px) {
+  
+    /* CSS */
+    .sidetagalign {
+        margin-top: 10%;
+        float: left;
+        text-align: left;
+    }
+}  
